@@ -8,7 +8,7 @@ A Thales Key Block has four parts -
 
 For example, the optional header may include tags for key set ID, block version, algorithm ID, validity dates, etc. 
 The payload is encrypted (3DES or AES) under a key derived from the HSM’s LMK, using part of the header as the IV
-Finally a MAC (DES CBC-MAC or AES-CMAC) covers header‖optional-header‖ciphertext for integrity
+Finally a MAC (DES CBC-MAC or AES-CMAC) covers ```header ‖ optional-header ‖ ciphertext``` for integrity
 
 In practice, only Thales payShield HSMs create or consume TKBs. The header’s LMK-ID field ties the block to a specific LMK partition (LMK-AES or LMK-3DES)
 
