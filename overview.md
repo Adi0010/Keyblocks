@@ -13,8 +13,8 @@ Thales Key Block
 
 why I think these 3 will be good candidates ? 
 1) Base24 Key Exchange - base24 is in the name 
-2) TR-31 - Common and read it in the documents
-3) Thales - our vendor is Thales
+2) TR-31 - Common hai
+3) Thales ----
 
   
 
